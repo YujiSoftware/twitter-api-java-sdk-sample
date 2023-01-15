@@ -17,7 +17,8 @@ public class OAuth {
                 System.getenv("TWITTER_OAUTH2_CLIENT_ID"),
                 System.getenv("TWITTER_OAUTH2_CLIENT_SECRET"),
                 System.getenv("TWITTER_OAUTH2_CALLBACK"),
-                "tweet.read tweet.write users.read");
+                "tweet.read tweet.write users.read"
+        );
 
         Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
         System.out.println("Fetching the Authorization URL...");

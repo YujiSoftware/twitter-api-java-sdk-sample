@@ -12,7 +12,8 @@ public class Tweet {
                 System.getenv("TWITTER_OAUTH2_CLIENT_ID"),
                 System.getenv("TWITTER_OAUTH2_CLIENT_SECRET"),
                 System.getenv("TWITTER_OAUTH2_ACCESS_TOKEN"),
-                System.getenv("TWITTER_OAUTH2_REFRESH_TOKEN"));
+                System.getenv("TWITTER_OAUTH2_REFRESH_TOKEN")
+        );
         TwitterApi api = new TwitterApi(credentials);
 
         String text = "Hello world!";

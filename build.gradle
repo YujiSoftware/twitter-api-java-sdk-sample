@@ -1,0 +1,21 @@
+allprojects {
+    group 'twitter.api.sample'
+    version '1.0-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'application'
+
+    compileJava {
+        options.encoding = 'UTF-8'
+    }
+
+    dependencies {
+        implementation group: 'com.twitter', name: 'twitter-api-java-sdk', version: '2.0.3'
+    }
+
+    repositories {
+        mavenCentral()
+    }
+}

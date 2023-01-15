@@ -1,0 +1,10 @@
+application {
+    mainClass = 'twitter.api.sample.OAuth'
+}
+
+run {
+    standardInput = System.in
+}
+
+dependencies {
+}

@@ -1,0 +1,6 @@
+application {
+    mainClass = 'twitter.api.sample.Tweet'
+}
+
+dependencies {
+}

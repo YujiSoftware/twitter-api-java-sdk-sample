@@ -1,0 +1,6 @@
+application {
+    mainClass = 'twitter.api.sample.Refresh'
+}
+
+dependencies {
+}

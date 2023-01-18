@@ -1,2 +1,2 @@
 rootProject.name = 'twitter-api-java-sdk-sample'
-include 'oauth', 'tweet'
+include 'oauth', 'tweet', 'refresh'
